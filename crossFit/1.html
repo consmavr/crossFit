@@ -9,26 +9,30 @@
     <style type="text/css">
 
       body {
-          background: url(dark-wall-bkgrnd.jpg);
-          background-repeat:no-repeat;
-
-          background-attachment:scroll;
-
+          background: url(01-crossfit.jpg);
+          background-size: 100% 100%;
       }
+
       .ui-page {
           background: transparent;
       }
+
       .ui-content{
           background: transparent;
       }
-      .ui-btn {
-        font-size: 150% !important;
-        color: white !important;
-        background: url('pattern2.jpg');
-        background-size: cover;
-        width: 250px !important;
-        height: 60px !important;
 
+      .ui-btn {
+        font-size:  !important;
+        color: #FF003F!important;
+        background: url('pattern4.jpg');
+        background-size: cover;
+        width: 160px !important;
+        height: 40px !important;
+      }
+      .but_{
+        position: absolute;
+        left: 30px;
+        top: 50%;
       }
 
     </style>
@@ -41,10 +45,10 @@
 
   <body>
 
-    <div data-role="header"><h1>Cross Fit</h1></div><!-- /header -->
+    <div data-role="header" data-theme="a"><h1>Cross Fit</h1></div><!-- /header -->
 
     <div data-role="content" ></div>
-    <div align="center";>
+    <div class="but_" align="left" margin-top: 50%;>
       <button class="ui-btn ui-corner-all ui-btn-b">Button 1</button>
       <button class="ui-btn ui-corner-all ui-btn-b">Button 2</button>
     </div>
